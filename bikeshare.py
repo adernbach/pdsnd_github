@@ -21,6 +21,7 @@ def get_filters() :
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     cities = ['chicago' , 'new york city' , 'washington']
     while True :
+# refactoring looks good here!
         city = input('Please Enter name of the city to analyze data , from chicago , New york city , Washington : ').lower()
         if city in cities :
             break
